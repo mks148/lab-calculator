@@ -1,0 +1,15 @@
+{
+  "name": "lab-calculator",
+  "version": "1.0.0",
+  "description": "node calculator in the url",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "lab"
+  ],
+  "author": "manoj",
+  "license": "ISC"
+}
