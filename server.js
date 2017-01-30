@@ -57,5 +57,6 @@ accounting.formatNumber(y) +
 app.use('/calculator',calculator);
 
 //port
-app.listen(3000);
+let port=process.env.PORT || 3000;
+app.listen(port);
 console.log('server succesfully started');
